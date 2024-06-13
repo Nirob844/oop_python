@@ -3,13 +3,13 @@ from abc import ABC, abstractmethod
 
 # abstract base class
 class Animal(ABC):
-    
+
     @abstractmethod #enforce all derived class to have a eat method
     def eat(self):
         pass
     
     @abstractmethod
-    def move(self):
+    def move(self): 
         pass
 
 class Monkey(Animal):
